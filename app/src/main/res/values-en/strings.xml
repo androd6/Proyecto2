@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Project2</string>
+    <string name="v1_ti_name">Full Name</string>
+    <string name="v1_ti_cumple">Touch two times for birth day</string>
+    <string name="v1_ti_phone">Phone</string>
+    <string name="v1_ti_email">Email</string>
+    <string name="v1_ti_description">Description</string>
+    <string name="v1_boton">Next</string>
+</resources>
