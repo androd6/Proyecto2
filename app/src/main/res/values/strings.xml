@@ -6,4 +6,11 @@
     <string name="v1_ti_email">Email</string>
     <string name="v1_ti_description">Descripcion</string>
     <string name="v1_boton">Siguiente</string>
+    <string name="v2_boton">Editar Datos</string>
+    <string name="v2_Titulo1">Confirmar Datos</string>
+    <string name="v2_ti_name">Nombre completo</string>
+    <string name="v2_ti_cumple">Pulse dos veces para fecha de nacimiento</string>
+    <string name="v2_ti_phone">Telefono</string>
+    <string name="v2_ti_email">Email</string>
+    <string name="v2_ti_description">Descripcion</string>
 </resources>

@@ -2,13 +2,35 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/v1_boton"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/v2_etTitulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="center|center_vertical"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="10dp"
+        android:singleLine="true"
+        android:text="@string/v2_Titulo1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:id="@+id/Layoud_Superior"
+        android:id="@+id/Layoud_Superior2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -21,89 +43,92 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056">
+        app:layout_constraintTop_toBottomOf="@+id/v2_etTitulo1"
+        app:layout_constraintVertical_bias="0.142">
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/v1_ly_tiname"
+            android:id="@+id/v2_ly_tiname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="visible"
             app:boxBackgroundMode="filled">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/v1_tiname"
+                android:id="@+id/v2_tiname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:enabled="false"
                 android:hint="@string/v1_ti_name"
                 android:singleLine="true" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/v1_ly_tidate"
+            android:id="@+id/v2_ly_tidate"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/v1_tidate"
+                android:id="@+id/v2_tidate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:enabled="false"
                 android:hint="@string/v1_ti_cumple"
                 android:singleLine="true" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/v1_ly_phone"
+            android:id="@+id/v2_ly_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/v1_phone"
+                android:id="@+id/v2_phone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/v1_ti_phone"
-                android:singleLine="true" />
+                android:enabled="false"
+                android:hint="@string/v1_ti_phone" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/v1_ly_tiemail"
+            android:id="@+id/v2_ly_tiemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/v1_tiemail"
+                android:id="@+id/v2_tiemail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/v1_ti_email"
-                android:singleLine="true" />
+                android:enabled="false"
+                android:hint="@string/v1_ti_email" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/v1_ly_tidesc"
+            android:id="@+id/v2_ly_tidesc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/v1_tidesc"
+                android:id="@+id/v2_tidesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:enabled="false"
                 android:hint="@string/v1_ti_description" />
         </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/v1_button"
+        android:id="@+id/v2_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onClickBoton1"
-        android:text="@string/v1_boton"
+        android:text="@string/v2_boton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Layoud_Superior"
+        app:layout_constraintTop_toBottomOf="@+id/Layoud_Superior2"
         app:layout_constraintVertical_bias="0.472" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

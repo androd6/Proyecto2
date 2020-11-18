@@ -7,4 +7,11 @@
     <string name="v1_ti_email">Email</string>
     <string name="v1_ti_description">Description</string>
     <string name="v1_boton">Next</string>
+    <string name="v2_boton">Edit Data</string>
+    <string name="v2_Titulo1">Confirm Data</string>
+    <string name="v2_ti_name">Full Name</string>
+    <string name="v2_ti_cumple">Touch two times for birth day</string>
+    <string name="v2_ti_phone">Phone</string>
+    <string name="v2_ti_email">Email</string>
+    <string name="v2_ti_description">Description</string>
 </resources>
